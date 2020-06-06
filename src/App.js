@@ -5,7 +5,10 @@ function App() {
   return (
     <div className='App'>
       Hello React
-      <RandomMeal />
+      <div className='container'>
+        <h2>Featured Meal</h2>
+        <RandomMeal />
+      </div>
     </div>
   );
 }
