@@ -1,14 +1,15 @@
 import React from 'react';
 import RandomMeal from './components/RandomMeal';
+import Meal from './components/Meal';
 
 function App() {
   return (
     <div className='App'>
-      Hello React
-      <div className='container'>
-        <h2>Featured Meal</h2>
-        <RandomMeal />
-      </div>
+      <input type='text' />
+      <RandomMeal />
+
+      <Meal />
+      <Meal />
     </div>
   );
 }
